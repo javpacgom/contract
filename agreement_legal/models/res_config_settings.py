@@ -23,9 +23,6 @@ class ResConfigSettings(models.TransientModel):
     module_agreement_sale = fields.Boolean(
         string="Create an agreement when the sale order is confirmed."
     )
-    module_agreement_sale_subscription = fields.Boolean(
-        string="Link your subscriptions to an agreement."
-    )
     module_agreement_stock = fields.Boolean(
         string="Link your pickings to an agreement."
     )
